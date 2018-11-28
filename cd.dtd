@@ -1,0 +1,12 @@
+<!ELEMENT  CDS (CD+)>
+<!ELEMENT CD (Titre, Interprete+, Genre, Piste+, Pochette?, Site?)>
+<!ELEMENT Piste (Titre, Compositeur+, Duree?)>
+<!ELEMENT Titre (#PCDATA)>
+<!ELEMENT Interprete (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Compositeur (#PCDATA)>
+<!ELEMENT Duree (#PCDATA)>
+<!ELEMENT Pochette (Urlface, Urldos?)>
+<!ELEMENT Urlface (#PCDATA)>
+<!ELEMENT Urldos (#PCDATA)>
+<!ELEMENT Site (#PCDATA)>

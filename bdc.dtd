@@ -1,0 +1,18 @@
+<!ELEMENT BonCommandes (BonCommande+)>
+<!ELEMENT BonCommande (Entreprise, Entreprise, Date, Montant, Detail)>
+<!ELEMENT Entreprise (Nom, Adresse, NumeroTelephone, Fax?)>
+<!ELEMENT Detail (Produit+)>
+<!ELEMENT Produit (Reference, Intitule, QuantiteCommande, PrixUnitaire)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Montant (#PCDATA)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Adresse (#PCDATA)>
+<!ELEMENT NumeroTelephone (#PCDATA)>
+<!ELEMENT Fax (#PCDATA)>
+<!ELEMENT Reference (#PCDATA)>
+<!ELEMENT Intitule (#PCDATA)>
+<!ELEMENT QuantiteCommande (#PCDATA)>
+<!ELEMENT PrixUnitaire (#PCDATA)>
+
+<!ATTLIST BonCommande id ID #REQUIRED>
+<!ATTLIST Entreprise type (ent | org) #REQUIRED>

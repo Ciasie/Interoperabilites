@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BonCommandes>
+    <BonCommande id="bdc1">
+        <Entreprise type="ent">
+            <Nom>BenjiDitMoiOui</Nom>
+            <Adresse>21 rue de l'energie 43215 Naxoi</Adresse>
+            <NumeroTelephone>0620020220</NumeroTelephone>
+            <Fax>+2233233221</Fax>
+        </Entreprise>
+        <Entreprise type="org">
+            <Nom>Jojojojojo</Nom>
+            <Adresse>12 rue bababababababa</Adresse>
+            <NumeroTelephone>1232123212</NumeroTelephone>
+        </Entreprise>
+        <Date>12/11/2017</Date>
+        <Montant>3200100</Montant>
+        <Detail>
+            <Produit>
+                <Reference>ref-123avgfED69</Reference>
+                <Intitule>Machine à bohneur</Intitule>
+                <QuantiteCommande>100</QuantiteCommande>
+                <PrixUnitaire>3200</PrixUnitaire>
+            </Produit>
+            <Produit>
+                <Reference>ref-123dqsdqsc1</Reference>
+                <Intitule>Sapin Nordmann</Intitule>
+                <QuantiteCommande>1</QuantiteCommande>
+                <PrixUnitaire>100</PrixUnitaire>
+            </Produit>
+        </Detail>
+    </BonCommande>
+
+    <BonCommande id="bdc2">
+        <Entreprise type="ent">
+            <Nom>Aaaaaa</Nom>
+            <Adresse>21 rue de raymi lafesse</Adresse>
+            <NumeroTelephone>0610020220</NumeroTelephone>
+        </Entreprise>
+        <Entreprise type="org">
+            <Nom>Azar le baltazar</Nom>
+            <Adresse>12 rue bababaababababa</Adresse>
+            <NumeroTelephone>1232123212</NumeroTelephone>
+        </Entreprise>
+        <Date>12/11/2017</Date>
+        <Montant>100</Montant>
+        <Detail>
+            <Produit>
+                <Reference>ref-123dqsdqsc1</Reference>
+                <Intitule>Sapin Nordmann</Intitule>
+                <QuantiteCommande>1</QuantiteCommande>
+                <PrixUnitaire>100</PrixUnitaire>
+            </Produit>
+        </Detail>
+    </BonCommande>
+</BonCommandes>
