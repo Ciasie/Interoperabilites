@@ -5,6 +5,9 @@
 <xsl:strip-space elements="*" />
   <!-- TOUJOURS commencer par un template racine auquel on 
    les templates definis  -->
+
+  <!-- Premier traitement xsl simple,
+   mettre les titres de films dans une liste -->
   <xsl:template match="/">
     <html>
     <head>
@@ -12,16 +15,9 @@
     </head>
     <body>
       <h1>Liste des films</h1>
-      <table>
-        <tr>
-          <th>N°</th>
-          <th>Titre</th>
-          <th>Réalisateur</th>
-          <th>Pays</th>
-          <th>Genre</th>
-          <th>Durée</th>
-        </tr>
-      </table>
+      <ul>
+        <xsl:apply-templates />
+      </ul>
     </body>
     </html>
   </xsl:template>
@@ -32,7 +28,7 @@
 
   <xsl:template match="Film/Titre">
     <li><xsl:value-of select="." /></li>
-  </xsl:template>
+  </xsl:template> 
 
 
   <xsl:output method="html" version="5.0" encoding="UTF-8" />
