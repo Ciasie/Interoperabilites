@@ -1,5 +1,5 @@
-  <?xml version="1.0" encoding="UTF-8"?>
-  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- Permet d'ignorer les valeurs vides  -->
   <xsl:strip-space elements="*" />
@@ -30,6 +30,8 @@
       <xsl:apply-templates />
     </xsl:template>
 
+    <!-- On utilise select plutot que match afin de mettre le pays du films avant le genre dans le fichier de sortie.
+    Dans le fichier XML, le genre est avant le pays, donc sans select, il serait mis dans la colonne pays et inversement -->
     <xsl:template match="Film">
       <tr>
       <xsl:apply-templates select="Titre"/>
@@ -42,28 +44,23 @@
 
     <xsl:template match="Titre">
       <td><b><xsl:value-of select="." /></b></td>
-      <xsl:apply-templates />
     </xsl:template>
 
     <xsl:template match="Realisateur[1]">
       <td><xsl:value-of select="Nom" /></td>
-      <xsl:apply-templates />
     </xsl:template>
 
     <xsl:template match="Pays">
       <td><xsl:value-of select="." /></td>
-      <xsl:apply-templates />
     </xsl:template>
     
     <xsl:template match="Genre">
       <td><xsl:value-of select="." /></td>
-      <xsl:apply-templates />
     </xsl:template>
     
     <xsl:template match="Duree">
       <td><xsl:value-of select="." /></td>
-      <xsl:apply-templates />
     </xsl:template>
 
     <xsl:output method="html" version="5.0" encoding="UTF-8" />
-  </xsl:stylesheet>
+</xsl:stylesheet>
