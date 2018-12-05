@@ -1,100 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <!-- Permet d'ignorer les valeurs vides  -->
-  <xsl:strip-space elements="*" />
-  
-    <!-- TOUJOURS commencer par un template racine auquel on 
-    les templates definis  -->
-    <xsl:template match="/">
-      <html>
-      <head>
-        <title>Premier fichier xsl concret</title>
-      </head>
-      <body>
-        <h1>Liste des <xsl:value-of select="count(FILMS/Film)" /> films</h1>
-        <table border="1">
-          <tr>
-            <th>N°</th>
-            <th>Titre</th>
-            <th>Réalisateur</th>
-            <th>Pays</th>
-            <th>Genre</th>
-            <th>Durée</th>
-            <th>Affiche</th>
-            <th>Ils ont aimé</th>
-          </tr>
-          <xsl:apply-templates />
-        </table>
-      </body>
-      </html>
-    </xsl:template>
+	<xsl:template match="/">
+		<html>
+		<head>
+			<title>xml et xsl pour films : version tableau et templates</title>
+		</head>
+		<body>
+			<h1>Liste des <xsl:value-of select="count(FILMS/Film)"/> films de ma base</h1>
+			<table border="1">
+			<tr>
+        <th>N°</th>
+				<th>Titre</th>
+				<th>Réalisateur</th>
+				<th>Pays</th>
+				<th>Genre</th>
+				<th>Durée</th>
+        <th>Affiche</th>
+        <th>Ils ont aimé</th>
+			</tr>
+			<xsl:apply-templates select="FILMS/Film"/>
+			</table>
+		</body>
+		</html>
+	</xsl:template>
 
-    <xsl:template match="node()">
-      <xsl:apply-templates />
-    </xsl:template>
+	<xsl:template match="FILMS/Film">
+		<tr>
+      <td><xsl:value-of select="position()" /></td>
+			<td><b><xsl:value-of select="Titre" /></b></td>
+      
+      <td>
+        <xsl:choose>
+          <xsl:when test="count(Realisateur) &lt; 3">
+            <xsl:apply-templates select="Realisateur" />
+          </xsl:when>
+          <xsl:otherwise>
+            Film collectif
+          </xsl:otherwise>
+        </xsl:choose>
+      </td>
+     
+			<td><xsl:value-of select="Pays" /></td>
+			<td><xsl:value-of select="Genre" /></td>
+			<td><xsl:value-of select="Duree" /></td>
+      
+      <td>
+        <a>
+          <xsl:attribute name="href">
+            <xsl:value-of select="@Affiche" />
+          </xsl:attribute>
+          <img alt="img" style="max-height:100px">
+              <xsl:attribute name="src">
+                  <xsl:value-of select="@Affiche" />
+              </xsl:attribute>  
+          </img>
+        </a>
+      </td>
 
-    <xsl:template match="Film">
-      <tr>
-        <td><xsl:value-of select="position()" /></td>
-        <xsl:apply-templates select="Titre"/>
-        <td>
-          <!-- choose permet de changer le contenu en fonction d'une condition == if/else -->
-            <xsl:choose>
-              <xsl:when test="count(Realisateur)>2">
-                <i>Film Collectif</i>
-              </xsl:when>
-              <xsl:otherwise>
-                  <xsl:apply-templates select="Realisateur" />
-              </xsl:otherwise>
-            </xsl:choose>
-        </td>
-        <xsl:apply-templates select="Pays" />
-        <xsl:apply-templates select="Genre" />
-        <xsl:apply-templates select="Duree" />
-        <xsl:apply-templates select="@Affiche" />
-        <td><xsl:apply-templates select="Critique" /></td>
-      </tr>
-    </xsl:template>
+      <td><xsl:apply-templates select="Critique" /></td>
+		</tr>
+	</xsl:template>
 
-    <xsl:template match="Titre">
-      <td><b><xsl:value-of select="." /></b></td>
-    </xsl:template>
+  <xsl:template match="Critique">
+    <xsl:if test="Note &gt; 0">
+      <xsl:value-of select="Media" />
+    </xsl:if>
+  </xsl:template>
 
-    <xsl:template match="Realisateur">
-      <b><xsl:value-of select="Nom" /></b><xsl:value-of select="Prenom" /><br/>
-    </xsl:template>
+  <xsl:template match="FILMS/Film/Realisateur">
+    <b><xsl:value-of select="Nom" /></b>&#160;<xsl:value-of select="Prenom" /><br />
+  </xsl:template>
 
-    <xsl:template match="Pays">
-      <td><xsl:value-of select="." /></td>
-    </xsl:template>
-    
-    <xsl:template match="Genre">
-      <td><xsl:value-of select="." /></td>
-    </xsl:template>
-    
-    <xsl:template match="Duree">
-      <td><xsl:value-of select="." /></td>
-    </xsl:template> 
-    
-    <xsl:template match="@Affiche">
-      <td><img width="70"> 
-        <xsl:attribute name="src">
-          <xsl:value-of select="." />
-        </xsl:attribute>
-      </img></td>
-    </xsl:template>
-
-    <xsl:template match="Critique">
-      <!-- Balise if permet de charger du contenu, !!!! la balise ne propose pas de else -->
-      <xsl:if test="Note > 0">
-        <xsl:apply-templates select="Media" />
-      </xsl:if>
-    </xsl:template>
-
-    <xsl:template match="Media">
-      <xsl:value-of select="." />
-    </xsl:template>
-
-    <xsl:output method="html" version="5.0" encoding="UTF-8" />
+	<xsl:output method="html" version="5.0" encoding="UTF-8" />
 </xsl:stylesheet>
