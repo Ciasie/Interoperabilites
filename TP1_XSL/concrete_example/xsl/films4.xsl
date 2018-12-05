@@ -39,6 +39,7 @@
         <td><xsl:value-of select="position()" /></td>
         <xsl:apply-templates select="Titre"/>
         <td>
+          <!-- choose permet de changer le contenu en fonction d'une condition == if/else -->
             <xsl:choose>
               <xsl:when test="count(Realisateur)>2">
                 <i>Film Collectif</i>
@@ -85,6 +86,7 @@
     </xsl:template>
 
     <xsl:template match="Critique">
+      <!-- Balise if permet de charger du contenu, !!!! la balise ne propose pas de else -->
       <xsl:if test="Note > 0">
         <xsl:apply-templates select="Media" />
       </xsl:if>

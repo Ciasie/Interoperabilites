@@ -12,6 +12,7 @@
         <title>Premier fichier xsl concret</title>
       </head>
       <body>
+      <!-- Utilisation de la fonction count pour compter le nombre de film -->
         <h1>Liste des <xsl:value-of select="count(//Film)" /> films</h1>
         <table border="1">
           <tr>
@@ -35,6 +36,7 @@
 
     <xsl:template match="Film">
       <tr>
+        <!-- Utilisation de la fonction position pour donner le numéro du film -->
         <td><xsl:value-of select="position()" /></td>
         <xsl:apply-templates select="Titre"/>
         <td><xsl:apply-templates select="Realisateur" /></td>
@@ -67,6 +69,8 @@
     
     <xsl:template match="@Affiche">
       <td><img width="70"> 
+      <!-- la balise  attribute permet de donner une valeur sur un attribut d'une 
+      balise html, peut être utile également pour les href-->
         <xsl:attribute name="src">
           <xsl:value-of select="." />
         </xsl:attribute>
