@@ -1,66 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <!-- Permet d'ignorer les valeurs vides  -->
-  <xsl:strip-space elements="*" />
-    <!-- TOUJOURS commencer par un template racine auquel on 
-    les templates definis  -->
-    <xsl:template match="/">
-      <html>
-      <head>
-        <title>Premier fichier xsl concret</title>
-      </head>
-      <body>
-        <h1>Liste des films</h1>
-        <table border="1">
-          <tr>
-            <th>Titre</th>
-            <th>Réalisateur</th>
-            <th>Pays</th>
-            <th>Genre</th>
-            <th>Durée</th>
-          </tr>
-          <xsl:apply-templates />
-        </table>
-      </body>
-      </html>
-    </xsl:template>
+	<xsl:template match="/">
+		<html>
+		<head>
+			<title>xml et xsl pour films : version tableau</title>
+		</head>
+		<body>
+			<h1>Liste des films de ma base</h1>
+			<table border="1">
+			<tr>
+				<th>Titre</th>
+				<th>Réalisateur</th>
+				<th>Pays</th>
+				<th>Genre</th>
+				<th>Durée</th>
+			</tr>
+			<xsl:apply-templates select="FILMS/Film"/>
+			</table>
+		</body>
+		</html>
+	</xsl:template>
 
-    <xsl:template match="node()">
-      <xsl:apply-templates />
-    </xsl:template>
+	<xsl:template match="FILMS/Film">
+		<tr>
+			<td><b><xsl:value-of select="Titre" /></b></td>
+			<td><xsl:value-of select="Realisateur/Nom" /></td>
+			<td><xsl:value-of select="Pays" /></td>
+			<td><xsl:value-of select="Genre" /></td>
+			<td><xsl:value-of select="Duree" /></td>
+		</tr>
+	</xsl:template>
 
-    <!-- On utilise select plutot que match afin de mettre le pays du films avant le genre dans le fichier de sortie.
-    Dans le fichier XML, le genre est avant le pays, donc sans select, il serait mis dans la colonne pays et inversement -->
-    <xsl:template match="Film">
-      <tr>
-      <xsl:apply-templates select="Titre"/>
-      <xsl:apply-templates select="Realisateur" />
-      <xsl:apply-templates select="Pays" />
-      <xsl:apply-templates select="Genre" />
-      <xsl:apply-templates select="Duree" />
-      </tr>
-    </xsl:template>
-
-    <xsl:template match="Titre">
-      <td><b><xsl:value-of select="." /></b></td>
-    </xsl:template>
-
-    <xsl:template match="Realisateur[1]">
-      <td><xsl:value-of select="Nom" /></td>
-    </xsl:template>
-
-    <xsl:template match="Pays">
-      <td><xsl:value-of select="." /></td>
-    </xsl:template>
-    
-    <xsl:template match="Genre">
-      <td><xsl:value-of select="." /></td>
-    </xsl:template>
-    
-    <xsl:template match="Duree">
-      <td><xsl:value-of select="." /></td>
-    </xsl:template>
-
-    <xsl:output method="html" version="5.0" encoding="UTF-8" />
+	<xsl:output method="html" version="5.0" encoding="UTF-8" />
 </xsl:stylesheet>
