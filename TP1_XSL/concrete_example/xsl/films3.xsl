@@ -1,81 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <!-- Permet d'ignorer les valeurs vides  -->
-  <xsl:strip-space elements="*" />
-  
-    <!-- TOUJOURS commencer par un template racine auquel on 
-    les templates definis  -->
-    <xsl:template match="/">
-      <html>
-      <head>
-        <title>Premier fichier xsl concret</title>
-      </head>
-      <body>
-      <!-- Utilisation de la fonction count pour compter le nombre de film -->
-        <h1>Liste des <xsl:value-of select="count(//Film)" /> films</h1>
-        <table border="1">
-          <tr>
-            <th>N°</th>
-            <th>Titre</th>
-            <th>Réalisateur</th>
-            <th>Pays</th>
-            <th>Genre</th>
-            <th>Durée</th>
-            <th>Affiche</th>
-          </tr>
-          <xsl:apply-templates />
-        </table>
-      </body>
-      </html>
-    </xsl:template>
+	<xsl:template match="/">
+		<html>
+		<head>
+			<title>xml et xsl pour films : version tableau et templates</title>
+		</head>
+		<body>
+			<h1>Liste des <xsl:value-of select="count(FILMS/Film)"/> films de ma base</h1>
+			<table border="1">
+			<tr>
+        <th>N°</th>
+				<th>Titre</th>
+				<th>Réalisateur</th>
+				<th>Pays</th>
+				<th>Genre</th>
+				<th>Durée</th>
+        <th>Affiche</th>
+			</tr>
+			<xsl:apply-templates select="FILMS/Film"/>
+			</table>
+		</body>
+		</html>
+	</xsl:template>
 
-    <xsl:template match="node()">
-      <xsl:apply-templates />
-    </xsl:template>
+	<xsl:template match="FILMS/Film">
+		<tr>
+      <td><xsl:value-of select="position()" /></td>
+			<td><b><xsl:value-of select="Titre" /></b></td>
 
-    <xsl:template match="Film">
-      <tr>
-        <!-- Utilisation de la fonction position pour donner le numéro du film -->
-        <td><xsl:value-of select="position()" /></td>
-        <xsl:apply-templates select="Titre"/>
-        <td><xsl:apply-templates select="Realisateur" /></td>
-        <xsl:apply-templates select="Pays" />
-        <xsl:apply-templates select="Genre" />
-        <xsl:apply-templates select="Duree" />
-        <xsl:apply-templates select="@Affiche" />
-      </tr>
-    </xsl:template>
+      <td><xsl:apply-templates select="Realisateur" /></td>
+			<td><xsl:value-of select="Pays" /></td>
+			<td><xsl:value-of select="Genre" /></td>
+			<td><xsl:value-of select="Duree" /></td>
+      
+      <td>
+        <img style="max-height:100px">
+            <xsl:attribute name="src">
+                <xsl:value-of select="@Affiche" />
+            </xsl:attribute>  
+        </img>
+      </td>
+		</tr>
+	</xsl:template>
 
-    <xsl:template match="Titre">
-      <td><b><xsl:value-of select="." /></b></td>
-    </xsl:template>
+  <xsl:template match="FILMS/Film/Realisateur">
+    <b><xsl:value-of select="Nom" /></b>&#160;<xsl:value-of select="Prenom" /><br />
+  </xsl:template>
 
-    <xsl:template match="Realisateur">
-      <b><xsl:value-of select="Nom" /></b><xsl:value-of select="Prenom" /><br/>
-    </xsl:template>
-
-    <xsl:template match="Pays">
-      <td><xsl:value-of select="." /></td>
-    </xsl:template>
-    
-    <xsl:template match="Genre">
-      <td><xsl:value-of select="." /></td>
-    </xsl:template>
-    
-    <xsl:template match="Duree">
-      <td><xsl:value-of select="." /></td>
-    </xsl:template>
-    
-    <xsl:template match="@Affiche">
-      <td><img width="70"> 
-      <!-- la balise  attribute permet de donner une valeur sur un attribut d'une 
-      balise html, peut être utile également pour les href-->
-        <xsl:attribute name="src">
-          <xsl:value-of select="." />
-        </xsl:attribute>
-      </img></td>
-    </xsl:template>
-
-    <xsl:output method="html" version="5.0" encoding="UTF-8" />
+	<xsl:output method="html" version="5.0" encoding="UTF-8" />
 </xsl:stylesheet>
