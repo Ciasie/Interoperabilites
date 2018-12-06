@@ -1,4 +1,4 @@
-<!ELEMENT BASE((Films)*, (Acteurs)*, (Realisateur)*) >
+<!ELEMENT BASE ((Films)*, (Acteurs)*, (Realisateur)*) >
 
 <!ELEMENT Films (Film)* >
 <!ELEMENT Film  (Titre, (Scenario)*, Genre, Pays, Duree, Resume, (Palmares)*, 
@@ -7,7 +7,7 @@
 <!ELEMENT Acteurs      (Acteur)+ >
 <!ELEMENT Acteur       (Nom, (Prenom)?)>
 
-<!ELEMENT Realisateurs(Realisateur)* >
+<!ELEMENT Realisateurs (Realisateur)* >
 <!ELEMENT Realisateur  (Nom, Prenom)>
 
 
