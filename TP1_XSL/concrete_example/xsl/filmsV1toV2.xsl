@@ -35,14 +35,8 @@
 	</Film>
 </xsl:template>
 
-<xsl:template match="Acteur/@ID">
-	<xsl:if test="not(position() = 1)">
-		<xsl:text> </xsl:text>
-	</xsl:if>
-	<xsl:value-of select="." />
-</xsl:template>
 
-<xsl:template match="Realisateur/@ID">
+<xsl:template match="Acteur/@ID | Realisateur/@ID">
 	<xsl:if test="not(position() = 1)">
 		<xsl:text> </xsl:text>
 	</xsl:if>
