@@ -1,0 +1,847 @@
+<?xml version="1.0"  encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE FILMS SYSTEM "./films.dtd">
+
+<FILMS>
+  <Film ID="f01" Affiche="http://www.homme-moderne.org/enfinpris/images/affiche.gif" Langue="fr">
+      <Titre>Enfin pris ?</Titre>
+      <Realisateur ID="r01">
+	<Nom>Carles</Nom>
+	<Prenom>Pierre</Prenom>
+      </Realisateur>
+      <Genre>Documentaire</Genre>
+      <Pays>France</Pays>
+      <Duree>1h30</Duree>
+      <Resume>
+	<Titre>Daniel Schneidermann dans le viseur du franc-tireur Pierre Carles.</Titre>
+	<Texte>
+Ce nouveau film op�re une synth�se. Il part de Bourdieu, coupant �
+l'�loge fun�bre (le sociologue est mort en janvier dernier) pour mieux
+se fixer sur... Daniel Schneidermann. Le producteur-animateur d'Arr�t
+sur images avait, � la suite des gr�ves de l'hiver 1995, convi�
+Bourdieu face � un panel de t�nors cathodiques - Durand et surtout
+Cavada ne sortent pas grandis des extraits rediffus�s. Bourdieu,
+auteur du pamphlet Sur la t�l�vision, avait ensuite boud�. On voit
+Carles, en 1997, titiller son vieux copain Schneidermann en lui
+proposant de r�inviter Bourdieu.  Schneidermann rit jaune. Quelques
+ann�es auparavant, Carles et lui avaient un projet commun de
+documentaire "animalier" sur le comportement des �lites. L'affaire fit
+flop. Leurs chemins divergeant, l'un, arriv�, s'est retrouv� dans le
+collimateur de l'autre, �ternel franc-tireur.
+
+On n'est jamais plus critique et s�v�re qu'avec celui qu'on aurait pu
+devenir. Carles assume tellement sa fixette sur Schneidermann qu'il en
+vient � se mettre en sc�ne lui-m�me allong� sur le divan d'un psy - un
+de ses anciens profs. Ce papy Freud au perp�tuel sourire � poil blanc
+distille d'une voix aigu� son fluet diagnostic. Sa pr�sence comique
+est d'un effet irr�sistible, on n'est pas loin de Woody Allen ou de
+Nanni Moretti. Cette longue s�quence donne aussi la cl� du film � et,
+� rebours, des pr�c�dents : le petit Cam�scope o� d�filent les images
+de l'autre (Schneidermann), cens�es prouver sa schizophr�nie, est un
+miroir. Pierre Carles finit par rire comme un gosse, et nous avec, de
+s'y voir au fond en qu�te de lui-m�me. Chez celui qui s'�chappe, il y
+a toujours le secret d�sir d'�tre pris.
+</Texte>
+      </Resume>
+    <Acteurs>
+      <Acteur ID="a01">
+	<Nom>Carles</Nom>
+	<Prenom>Pierre</Prenom>
+      </Acteur>
+      <Acteur ID="a02">
+      <Nom>Bourdieu</Nom>
+      <Prenom>Pierre</Prenom>
+      </Acteur>
+      <Acteur ID="a03">
+	<Nom>Schneidermann</Nom>
+	<Prenom>Daniel</Prenom>
+      </Acteur>
+    </Acteurs>
+    <Image>
+      <Nom>Carles</Nom>
+      <Prenom>Pierre</Prenom>
+    </Image>
+    <Montage>
+      <Nom>Bour</Nom>
+      <Prenom>Gilles</Prenom>
+    </Montage>
+    <Montage>
+      <Nom>Painchault</Nom>
+      <Prenom>Claire</Prenom>
+    </Montage>
+    <Montage>
+      <Nom>Sasia</Nom>
+      <Prenom>Bernard</Prenom>
+    </Montage>
+    <Musique>Jay-Jay Johanson</Musique>
+    <Producteur>C-P Productions</Producteur>
+    <Distributeur>Cara M</Distributeur>
+    <Critique>
+      <Media>Telerama</Media>
+      <Auteur>Fran�ois Gorin</Auteur>
+      <Texte>Ce film, il faudra le chercher, mais sa tr�s modeste distribution
+cache une estimable ambition : �tre vu.  Pour ceux qui auraient rat�
+les �pisodes pr�c�dents, Carles est ce pierrot lunaire aper�u � la
+t�l� chez Rapp ou Dechavanne, sit�t vir� qu'il �tait engag�, puis
+d�ment �tiquet� "�lectron libre du PAF", mani�re comme une autre
+d'�tre enferm�. Doux paradoxe, le studieux potache a trouv� une forme
+de salut au cin�ma, d'o� il nargue, fort d'un fan-club clou� au
+fauteuil par ses tours de pince-sans-rire, la m�re-t�l� indigne,
+unique objet de son ressentiment maniaque. Pas vu pas pris traquait
+les mensonges pas toujours pieux de certains t�nors cathodiques. La
+sociologie est un sport de combat hissait Pierre Bourdieu sur le
+pi�destal d'une admiration apr�s tout l�gitime.
+   </Texte>
+    </Critique>
+    <Critique>
+      <Media>Le Monde</Media>
+      <Auteur>Isabelle Regnier</Auteur>
+      <Texte>Enfin pris ? est le nouvel �pisode de la croisade du trublion Pierre
+Carles contre la t�l�vision. Homme de convictions, Pierre Carles
+d�fend depuis des ann�es, avec un acharnement jamais d�menti, l'id�e
+selon laquelle le petit �cran est la vitrine du pouvoir politique,
+donc r�fractaire par d�finition � toute forme de
+subversion. Soit. Apr�s s'en �tre pris aux journalistes de t�l�vision
+dans Pas vu � la t�l� (1994) et Pas vu pas pris (1998), il s'attaque
+aujourd'hui aux �missions de critique du petit �cran.
+
+Fid�le � une m�thode dont il assume la malhonn�tet� (seule strat�gie
+possible face aux repr�sentants d'un organe ontologiquement corrompu,
+soutenait-il dans Pas vu pas pris), il s'arroge la parole d'autrui par
+l'enregistrement de conversations t�l�phoniques et autres messages sur
+r�pondeur, auxquels il adjoint ses commentaires. Sans avoir le moindre
+droit de r�ponse, ses interlocuteurs font les frais de ce dispositif
+non d�monstratif, exclusivement destin� � servir son opinion. Dans
+Enfin pris ?, Daniel Schneidermann, pr�sentateur de l'�mission "Arr�t
+sur images", chroniqueur au Monde et ancien collaborateur de Pierre
+Carles (ils ont cor�alis� un documentaire sur la vie des �lites en
+1992), est pris pour cible.
+</Texte>
+    </Critique>
+  </Film>
+  <Film ID="f02" Langue="uk" Affiche="https://m.media-amazon.com/images/M/MV5BMzkxMjI4MjYtNjYzMC00ZTE1LWJlNjAtNWIyYzU3Njc3ODRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg">
+    <Titre>11'09''01</Titre>
+    <Realisateur ID="r02">
+      <Nom>Makhmalbaf</Nom>
+      <Prenom>Samira </Prenom>
+    </Realisateur>
+    <Realisateur ID="r03">
+      <Nom>Lelouch</Nom>
+      <Prenom>Claude</Prenom>
+    </Realisateur>
+    <Realisateur ID="r04">
+      <Nom>Chahine</Nom>
+      <Prenom>Youssef</Prenom>
+    </Realisateur>
+    <Realisateur ID="r05">
+      <Nom>Tanovic</Nom>
+      <Prenom>Danis</Prenom>
+    </Realisateur>
+    <Realisateur ID="r06">
+      <Nom>Ouedraogo</Nom>
+      <Prenom>Idrissa</Prenom>
+    </Realisateur>
+    <Realisateur ID="r07">
+      <Nom>Loach</Nom>
+      <Prenom>Ken</Prenom>
+    </Realisateur>
+    <Realisateur ID="r08">
+      <Nom>I��rritu</Nom>
+      <Prenom>Alejandro Gonz�les</Prenom>
+    </Realisateur>
+    <Realisateur ID="r09">
+      <Nom>Gitai</Nom>
+      <Prenom>Amos</Prenom>
+    </Realisateur>
+    <Realisateur ID="r10">
+      <Nom>Nair</Nom>
+      <Prenom>Mira</Prenom>
+    </Realisateur>
+    <Realisateur ID="r11">
+      <Nom>Penn</Nom>
+      <Prenom>Sean</Prenom>
+    </Realisateur>
+    <Realisateur ID="r12">
+      <Nom>Imamura</Nom>
+      <Prenom>Shohei</Prenom>
+    </Realisateur>
+    <Genre>Retour sur actualit�</Genre>
+    <Pays>France</Pays>
+    <Duree>2h10</Duree>
+    <Resume>
+      <Texte>
+Onze cin�astes de renom invit�s � exprimer en onze minutes leur
+mani�re de se souvenir, un ans apr�s, du drame qui frappa l?Am�rique
+le 11/09/2001. Un patchwork de onze regards aux r�f�rences politiques,
+religieuses, culturelles diff�rentes, onze styles venus de tous les
+points du globe comme le rappelle l?introduction de chaque court
+m�trage.
+</Texte>
+    </Resume>
+    <Musique>Alexandre Desplat</Musique>
+    <Producteur>Galat� Films-StudioCanal</Producteur>
+    <Distributeur>Bac Distribution</Distributeur>
+    <Critique>
+      <Media>T�l�rama </Media>
+      <Auteur>Jean-Claude Loiseau</Auteur>
+      <Texte>C'est le genre d'id�e saugrenue qui avait toute chance de tourner au
+fiasco. Mettre une pl�iade de cin�astes au d�fi d'imaginer les images
+qui "r�pondraient" � celles, ind�l�biles, des tours du World Trade
+Center frapp�es de plein fouet avant de s'effondrer ; � celles, encore
+plus hallucinantes, des corps qui n'en finissent pas de tomber dans le
+vide... Forc�ment, onze films courts et disparates mis bout � bout ne
+font pas un film coh�rent. Si l'on oublie le "formatage" gadget �
+chaque film devait durer 11 minutes 9 secondes et une image (!) � la
+diversit� est, en soi, une forme de r�ussite. Il y a ces �clats de
+libert� qui s'imposent, dans le spectacle ou la sobri�t�. Avec le film
+de Danis Tanovic, on est soudain touch� de plein fouet par la douleur
+digne d'un cort�ge de femmes bosniaques, habitu�es � manifester en
+silence le 11 de chaque mois pour leurs disparus. Les petits r�fugi�s
+afghans, film�s par Samira Makhmalbaf dans une classe improvis�e de la
+campagne iranienne, ont une vision du monde qui d�joue l'attente d'un
+spectateur occidental.
+ 
+Prendre du recul, d�passer le choc �motionnel des images du 11
+septembre.  Mais comment ? La fable chaleureuse et ironique d'Idrissa
+Ouedraogo, avec ses gosses qui traquent Ben Laden sur le march� de
+Ouagadougou, est aux antipodes du rappel calme mais implacable que Ken
+Loach fait d'un autre 11 septembre : ce jour de 1973 o� les avions
+bombardaient le palais pr�sidentiel chilien, tuant Allende et lan�ant
+du m�me coup une longue et sanglante chasse aux sorci�res. En un
+plan-s�quence virtuose, Amos Gitai, de son c�t�, a imagin� de
+confronter l'attentat de New York � celui qui se produit au m�me
+moment � Tel Aviv. Ici, la belle id�e de cin�ma est le tremplin d'une
+r�flexion limpide. Mais rien n'est aussi percutant, dans cette
+mosa�que h�t�roclite, que l'essai limite du Mexicain Alejandro
+Gonz�les I��rritu. Un �cran noir avec juste des flashes, de loin en
+loin, sur des corps en chute libre, et une bande-son saisissante, des
+cris, des chants psalmodi�s, un brouillard de voix �perdues : le
+cin�aste ravive l'horreur de mani�re litt�ralement inou�e.
+
+Alors on oubliera les rat�s, et le coup de col�re maladroitement
+antiam�ricain de Youssef Chahine, qui a suffi � cr�er une pol�mique.
+Dans 11'9"01, la majorit� des cin�astes ont choisi de confronter la
+trag�die v�cue par les Am�ricains aux souffrances, grandes et petites,
+qui submergent leur propre peuple. Un contrepoint utile. Et �
+discuter.</Texte>
+    </Critique>
+    <Critique>
+      <Media>Pro-fil</Media>
+      <Auteur>Jean Domon</Auteur>
+      <Texte>On aurait pu craindre ce genre de films-�-sketches que l?on conna�t
+bien, et qui sont plus ou moins r�ussis. Cet ensemble est au contraire
+la saisissante illustration de ce que peut �tre aujourd?hui le cin�ma
+dans sa totale libert� d?invention � �tre le t�moin de notre
+temps. Onze films qu?il faut absolument analyser et faire jouer entre
+eux, tant ils diffractent � l?infini des images et des messages qui
+dessinent un impressionnant portrait de notre plan�te inqui�te et
+douloureuse. Car il y a d?autres 11 Septembre, de Srebenica (ah, les
+plans et les lumi�res de Tanovic !) � Santiago du Chili (terribles
+archives rassembl�es par Ken Loach !) et tant d?autres qu?�gr�ne cette
+hyst�rique journaliste en plein d�sarroi terroriste � Tel Aviv
+(�tonnant plan s�quence de Gita� !).Des audaces d?�critures, sans
+paroles avec Lelouch ou sans images avec Inarritu, d�noncent l?
+incapacit� d?une t�l�vision r�ductioniste � nous introduire au c?ur du
+drame. Et Dieu dans tout �a ? demande le profilien soucieux . Les
+petits r�fugi�s afghans se demandent s?Il est capable de d�truire les
+humains alors que leur institutrice tente vainement de leur faire
+observer une minute de silence � la m�moire de victimes pour eux si
+lointaines ( Bravo Samira !) .Le Mexicain, lui, qui nous maintient
+dans le noir et les cris d?affolement, ouvre sa prestation sur des
+litanies de pri�res et la referme sur cette phrase �crite en arabe :
+"Est ce que Dieu nous guide ou nous aveugle ? ". Quant aux derni�res
+paroles de ces 130 minutes, c?est Imamura qui nous les offre � travers
+la formidable m�taphore de cet ancien combattant de la guerre
+sino-japonaise devenu serpent : "il n'y a pas de guerre sainte". 
+</Texte>
+    </Critique>
+  </Film>
+
+  <Film ID="f03" Langue="vo" Affiche="https://members.loria.fr/YBoniface/html/xml/file/LastParty2000.jpg">
+    <Titre>Last Party 2000</Titre>
+    <Realisateur ID="r13">
+      <Nom>Chaiklin</Nom>
+      <Prenom>Rebecca</Prenom>
+    </Realisateur>
+    <Realisateur  ID="r14">
+      <Nom>Leitch</Nom>
+      <Prenom>Donovan</Prenom>
+    </Realisateur>
+    <Genre>Documentaire</Genre>
+    <Pays>Am�ricain</Pays>
+    <Duree>1h37</Duree>
+    <Resume>
+      <Texte>L'ann�e 2000 fut une ann�e critique pour le syst�me d�mocratique
+am�ricain. Apr�s des �lections pr�sidentielles tir�es par les
+cheveux, la Cour Supre^me tranche et donne le pouvoir au parti
+r�publicain. Un retournement sans pr�c�dent pour une Am�rique
+r�gie depuis 8 ans par le parti d�mocrate. Last Party 2000 retrace
+ce moment unique.
+</Texte>
+    </Resume>
+    <Acteurs>
+      <Acteur ID="a04">
+	<Nom> Hoffman</Nom>
+	<Prenom>Philip Seymour</Prenom>
+      </Acteur>
+      <Acteur ID="a05">
+	<Nom>O'Donnell</Nom>
+	<Prenom>Rosie</Prenom>
+      </Acteur>
+      <Acteur ID="a06">
+	<Nom>Chomsky</Nom>
+	<Prenom>Noam</Prenom>
+      </Acteur>
+      <Acteur ID="a07">
+	<Nom> Moore</Nom>
+	<Prenom>Michael</Prenom>
+      </Acteur>
+      <Acteur ID="a08">
+	<Nom>Nader</Nom>
+	<Prenom>Ralph</Prenom>
+      </Acteur>
+    </Acteurs>
+    <Montage>
+      <Nom>Hoffmann</Nom>
+      <Prenom>Sabine</Prenom>
+    </Montage>
+    <Musique>Susan Jacobs</Musique>
+    <Producteur>Dajota Group Ltd</Producteur>
+    <Distributeur>ID Distribution.</Distributeur>
+    <Critique>
+      <Media>telerama</Media>
+      <Auteur>Jean-Claude Loiseau</Auteur>
+      <Texte>Et apr�s un ubuesque d�compte des voix, Bush fut �lu. C'est bien tout
+ce qui reste d'une campagne qui fut, de bout en bout, d'une morne
+platitude. Un duo de documentaristes, lanc� sur la piste des candidats
+d�s les primaires, a assez vite compris qu'ils devraient prendre la
+tangente. Avec, pour poisson pilote, un (excellent) acteur, Philip
+Seymour Hoffman, Candide sceptique mais curieux, le film fait la
+politique buissonni�re. Entre deux coups d'oeil pertinents � donc
+impertinents � sur le fonctionnement de la "machine" politique, les
+auteurs et Hoffman vont regarder ailleurs, engrangeant les interviews
+spontan�es avec des �tudiants, des artistes, des retrait�s,
+indiff�rents, d�sabus�s, cyniques. Ou bien ce sont les activistes
+radicaux qu'on d�couvre aux abords des conventions (la d�mocrate comme
+la r�publicaine), tenant meetings effervescents ou affrontant les
+flics omnipr�sents, dans des s�quen-ces-chocs rarement montr�es par la
+t�l�.
+
+La sortie du film a �t� repouss�e sine die pour cause de 11 septembre.
+Cela en affaiblit un peu la port�e aujourd'hui, mais cette enqu�te de
+terrain men�e � l'arrach�, parfois brouillonne � trop de th�mes
+effleur�s � est tr�s tonique : on y voit que la vie palpite hors des
+sentiers balis�s de la politique officielle. Et le tout est
+efficacement retravaill� au montage (choix musicaux "pointus" inclus)
+pour capter l'attention du public vis� en priorit� : celui des jeunes
+Am�ricains que la politique fait fuir. Michael Moore, qui fait une
+apparition furtive dans le film, a fait des �mules : Rebecca Chaiklin
+et Donovan Leitch ont, sinon la force de frappe, au moins la pugnacit�
+de l'illustre mod�le, et c'est plut�t une bonne nouvelle.
+</Texte>
+    </Critique>
+    <Critique>
+      <Media>chronic'art</Media>
+      <Auteur>Jean-Philippe Tess�</Auteur>
+      <Note>3</Note>
+      <Texte>Tourn� tout au long de la campagne �lectorale am�ricaine en 2000, Last
+party 2000 n?est pas tout � fait un retour sur la r�sistible ascension
+de George W.Bush vers la Maison Blanche, mais davantage un road movie
+politique au pays de l?Oncle Sam. On peut y voir, c?est d�j� �a, un
+antidote revigorant � l?hyst�rie b�ate qui accompagne, depuis sa
+sortie, l?affreux Bowling for Columbine de Michael Moore. Moore,
+d?ailleurs, appara�t dans le film, pour une br�ve interview et le
+temps d?une s�quence film�e lors d?un meeting de soutien � Ralph
+Nader, le candidat �cologiste � la pr�sidence (qui obtiendra 3% des
+voix, apr�s s?�tre vu refuser le droit de d�battre publiquement avec
+ses adversaires Bush et Gore).  On le d�couvre en tribun efficace,
+c?est-�-dire un r�le enfin lav� de toutes les aff�teries minaudeuses
+et hypocrites dont il infecte ses films. Dans Last party 2000, c?est
+Philip Seymour-Hoffman qui endosse le costume du candide en qu�te de
+r�ponses � ses pr�occupations de citoyen �lecteur. Le com�dien (vu
+chez Paul Thomas Anderson, Todd Solondz ou les fr�res Coen) avoue
+imm�diatement ne rien conna�tre � la politique, n?avoir fait aucun
+effort pour rem�dier � cela jusqu?� pr�sent, si ce n?est rejeter en
+bloc tous les dirigeants, consid�r�s comme pourris et avides de
+pouvoir.
+
+La fra�cheur na�ve de ses interrogations fait du film un documentaire
+inoffensif, mais il a au moins le m�rite de nous �pargner la vulgate
+path�tique de Moore. Candide, Seymour Hoffman l?est vraiment, �
+l?inverse de Moore qui feint de l?�tre et se place d?embl�e dans une
+position sentimentalo-ricanante de condescendance et de
+fatuit�. Accompagn� par les r�alisateurs, il prend son b�ton de
+p�lerin pour un long p�riple � travers les Etats-Unis. Au programme :
+congr�s r�publicains et d�mocrates en forme de path�tiques kermesses
+vulgaires o� l?on se r�p�te mot pour mot d?un camp � l?autre, et
+rencontres avec Noam Chomsky, Jesse Jackson et tout ce que l?Am�rique
+compte de Jos� Bov� locaux, de courants alternatifs, d?associations de
+d�fense des d�munis ou des minorit�s. Un portrait en creux d?un
+paysage politique r�calcitrant aux discours l�nifiants des deux grands
+partis, qui certes s?est exprim� plus fort que jamais lors de la
+campagne 2000, mais dont on a finalement beaucoup de mal � mesurer
+l?audience r�elle. Le film ne propose gu�re plus qu?une suite
+d?interviews et de reportages live au coeur des manifestations (o�
+l?on peut se rendre compte de l?effrayante brutalit� de la police, qui
+tol�re � peine la libre expression dans la rue) et des congr�s des
+candidats, mais il le fait relativement bien.
+</Texte>
+    </Critique>
+  </Film>
+  <Film ID="f04" Langue="uk" Affiche="http://a69.g.akamai.net/n/69/10688/v1/img5.allocine.fr/acmedia/medias/nmedia/00/02/45/99/affichette.jpg">
+    <Titre>Sweet Sixteen</Titre>
+    <Realisateur ID="r07">
+      <Nom>Loach</Nom>
+      <Prenom>Ken</Prenom>
+    </Realisateur>
+    <Scenario>
+      <Nom>Laverty</Nom>
+      <Prenom>Paul</Prenom>
+    </Scenario>
+    <Genre>r�alisme politique</Genre>
+    <Pays>Britannique</Pays>
+    <Duree>1h46</Duree>
+    <Resume>
+      <Texte>
+Dans quelques jours, Liam aura 16 ans. Sa m�re, Jean, qui est en
+prison, doit �tre lib�r�e � temps pour l'anniversaire de son
+fils. Liam compte bien saisir l'occasion pour que, cette fois enfin,
+tout se passe bien. Il r�ve d'une famille comme il n'en a jamais eue
+et redoute l'influence de son grand-p�re, comme celle de Stan, le
+compagnon de Jean.  Il veut un foyer, un endroit s�r pour sa m�re, sa
+soeur Chantelle et lui-m�me.
+
+Encore faut-il trouver de l'argent et, pour un adolescent fauch�, ce
+n'est pas une mince affaire. Avec ses copains, Liam encha�ne les
+combines mais, rapidement, les ennuis commencent. Liam sent bien que
+la situation devient grave et qu'il perd pied. Il faudrait partir mais
+peut-�tre est-il d�j� trop tard.
+</Texte>
+    </Resume>
+    <Acteurs>
+      <Acteur ID="a09">
+	<Nom>Compston</Nom>
+	<Prenom>Martin</Prenom>
+      </Acteur>
+      <Acteur ID="a10">
+	<Nom>Ruane</Nom>
+	<Prenom>William</Prenom>
+      </Acteur>
+      <Acteur ID="a11">
+	<Nom>Fulton</Nom>
+	<Prenom>Annmarie</Prenom>
+      </Acteur>
+      <Acteur ID="a12">
+	<Nom>Abercromby</Nom>
+	<Prenom>Michelle</Prenom>
+      </Acteur>
+    </Acteurs>
+    <Palmares>meilleur sc�nario au 55�me Festival de Cannes</Palmares>
+    <Image>
+      <Nom>Ackroyd</Nom>
+      <Prenom>Barry</Prenom>
+    </Image>
+    <Montage>
+      <Nom>Morris</Nom>
+      <Prenom>Jonathan</Prenom>
+    </Montage>
+    <Musique>George Fenton</Musique>
+    <Producteur>Sixteen Films, Road Movie filmproduktion et Tornasol/Altafilm</Producteur>
+    <Distributeur>Diaphana</Distributeur>
+    <Critique>
+      <Media>telerama</Media>
+      <Auteur>C�cile Mury</Auteur>
+      <Texte>Liam a bient�t 16 ans, une jolie caboche gouailleuse d�j� marqu�e
+d'enfant trop vieux pour son �ge et une famille d�vast�e. Maman en
+prison, beau-p�re dealer, minable et brutal, soeur � peine sortie de
+l'adolescence et d�j� m�re, qui tente de s'en sortir toute seule. Vif
+et fut�, Liam est lui aussi obs�d� par la reconqu�te d'un foyer, et
+surtout de cette m�re flottante, absente, paum�e, qui a tout l�ch�
+depuis longtemps. Cet amour inconditionnel pour une ombre de femme,
+cet oedipe mal taill�, trop grand, trop large, que le beau-p�re se
+charge de soigner � coups de poing, est au coeur du r�cit, moteur
+furieux et emball� d'une course �perdue, perdue d'avance. Pour sa
+m�re, pour lui bricoler un avenir, lui trouver un peu d'argent, un
+toit, Liam est pr�t � tout, m�me � se frotter aux truands du
+voisinage, m�me � risquer sa fragile existence.
+
+Ainsi r�duite � ces quelques rep�res, l'histoire de Liam pourrait
+faire croire � un mauvais m�lo, � une geste prolo d'une caricaturale
+noirceur.  C'est tout le contraire. La chronique, intime et sociale,
+est douloureuse, violente, mais rythm�e, souvent dr�le, comme une
+chanson r�aliste qui prendrait sa source et sa force dans chaque
+respiration. Prix du sc�nario � Cannes, le film renverse ironiquement
+l'id�ologie am�ricaine du "qui veut peut". Liam a le d�sir passionn�
+de s'en sortir, de r�ussir, et toute cette belle �nergie positive le
+m�ne droit � sa perte, dans les bras des trafiquants de drogue du
+quartier. Si le constat est amer, il ne tourne jamais � la
+d�monstration pesante. M�me coinc�e dans le b�ton, m�me au fond des
+foyers minables pour semi-d�linquants juv�niles et au matin de mauvais
+coups qui laissent la gueule en sang, la vie reprend rageusement ses
+droits, dans un sourire, une insulte bien sentie en sabir �cossais (le
+genre qui a valu au film une interdiction aux moins de 18 ans en
+Angleterre !) ou l'esquisse d'un geste tendre.
+
+Film�, comme toujours chez Ken Loach, � distance respectueuse, dans un
+style quasi documentaire, l'adolescent m�ne sa qu�te d�sesp�r�e avec
+une intensit� rare. Dans ce proc�d� d�sormais familier, Martin
+Compston est la vraie originalit�, la r�v�lation, le principe
+d'�tranget�, tr�sor de na�vet� et d'espoir scell� par le r�el. Dents
+serr�es, poings ferm�s, le jeune com�dien sait donner une lumi�re, une
+vivacit� exceptionnelles � son personnage. Gosse perdu, voyou, ni l'un
+ni l'autre, petit prince ab�m�, il compose avec ses partenaires,
+m�lange de com�diens professionnels et d'habitants du cru, comme il
+est de coutume chez Ken Loach, une r�ussite sobrement poignante.
+</Texte>
+    </Critique>
+    <Critique>
+      <Media>Mr Cinema</Media>
+      <Auteur>Jean-Luc Brunet</Auteur>
+      <Note>4</Note>
+      <Texte>R�alisateur prolifique, Ken Loach est aussi l'un de ceux qui montrent
+le mieux le prix � payer par les petits, les sans grades, pour garder
+ou obtenir leur libert� dans un monde de plus en plus impitoyable. En
+baisse de r�gime depuis quelques temps, le cin�aste fait un retour
+remarqu� avec SWEET SIXTEEN, un film tendu et sans concessions, dans
+la veine de RAINING STONES ou RIFF RAFF. C'est Liam, jeune ado de 16
+ans, frondeur, courageux et auteur de 400 coups avec son pote Pinball,
+qui est au coeur de ce drame. Il est d'ailleurs assez �tonnant de voir
+un cin�aste de la g�n�ration de Ken Loach si bien capter l'essence de
+celle de son jeune protagoniste pour qui il fait preuve de beaucoup de
+tendresse. Une g�n�ration d�senchant�e mais encore pr�te � se battre,
+m�me si les armes dont elle use (la came, l'alcool...) se retournent
+souvent contre elle. Le r�alisateur nous d�crit, � travers le parcours
+de Liam, le terrible processus de la d�linquance, le cycle infernal de
+la violence. C'est Martin Compston, lyc�en de 17 ans, qui interpr�te
+avec une conviction stup�fiante le personnage de Liam. Il est
+l'incontestable r�v�lation de cette chronique adolescente r�aliste et
+bouleversante.
+</Texte>
+    </Critique>
+  </Film>
+
+  <Film ID="f05" Langue="fr" Affiche="http://fr.web.img5.acsta.net/c_215_290/medias/nmedia/00/02/54/16/affiche.jpg">
+    <Titre>Le bruit, l'odeur et quelques �toiles</Titre>
+    <Realisateur ID="r16">
+      <Nom>Pittard</Nom>
+      <Prenom>Eric</Prenom>
+    </Realisateur>
+    <Genre>Drame</Genre>
+    <Pays>France</Pays>
+    <Duree>1h50</Duree>
+    <Resume>
+      <Texte>Le jeune Pipo a �t� abattu par un flic lors d'une tentative de
+vol. R�sultat : 4 jours d'�meutes dans la cit�. Lorsque l'�motion
+retombe, un groupe de jeunes, parall�lement � l'enqu�te judiciaire,
+tente de r�clamer justice. Puis, lass�s de toutes les promesses non
+tenues, ils entrent dans une spirale de folie qui va les conduire de
+la cit� � la prison.
+</Texte>
+    </Resume>
+    <Acteurs>
+      <Acteur ID="a13">
+	<Nom>Benfodil</Nom>
+	<Prenom>Farid</Prenom>
+      </Acteur>
+      <Acteur ID="a14">
+	<Nom>Benguella</Nom>
+	<Prenom>Kader</Prenom>
+      </Acteur>
+      <Acteur ID="a15">
+	<Nom>Mekouchech</Nom>
+	<Prenom>Farid</Prenom>
+      </Acteur>
+      <Acteur ID="a16">
+	<Nom>Mekouchech</Nom>
+	<Prenom>Kheira</Prenom>
+      </Acteur>
+      <Acteur ID="a17">
+	<Nom>Zebda</Nom>
+      </Acteur>
+    </Acteurs>
+    <Sortie>20/11/2002</Sortie>
+    <Musique>Zebda</Musique>
+    <Producteur>Les Films d'Ici</Producteur> 
+    <Distributeur>Les Films d'Ici</Distributeur>
+    <Critique>
+      <Media>telerama</Media>
+      <Auteur>Marine Landrot</Auteur>
+      <Texte>En 1991, Jacques Chirac l�chait des propos tristement c�l�bres sur les
+pr�tendues nuisances des immigr�s en France. Ce film emprunte une
+moiti� de son titre � ce d�rapage naus�abond qu'il donne d'ailleurs �
+entendre dans son int�gralit�, avec ses accents de fin de banquet.
+Quant aux "quelques �toiles", ce sont des jeunes de la cit� du Mirail,
+� Toulouse. De belles figures graves et insolentes qui en veulent,
+depuis que leur copain Pipo s'est fait trouer la peau, � 17 ans, par
+un policier qui l'avait pris en flagrant d�lit de vol de voiture, une
+nuit de d�cembre 1998. Quatre jours de gu�rilla urbaine s'en �taient
+suivis, marquant pour longtemps les habitants du quartier.
+
+Eric Pittard revient sur ce fait- divers en demandant aux t�moins de
+revivre � l'�cran les moments clefs de cet �pisode traumatique. Tr�s
+vite, trois d'entre eux se d�tachent du lot pour devenir des acteurs
+vibrants, �voquant � merveille leur pass� plein de secousses. Il ne
+s'agit pas de reconstitution mais plut�t de r�animation, de seconde
+vie.  Par ses extraordinaires qualit�s d'�criture, le r�alisateur
+clame en douceur son refus de la pr�destination, sa confiance en la
+deuxi�me chance. Aucune image d'archives ne vient illustrer ces r�cits
+in situ, ponctu�s par les chants du groupe toulousain Zebda. Le jeune
+d�funt appara�t dans de brefs tableaux fixes o� ses amis et sa famille
+regardent intens�ment la cam�ra, sa photo � la main. Deux enfants qui
+traversent le champ, un b�b� qui tirebouchonne les cheveux de sa m�re
+: impr�visible, la vie parvient toujours � faire irruption dans ces
+magnifiques flashs immobiles.
+</Texte>
+    </Critique>
+  </Film>
+  <Film ID="f06" Langue="fr" Affiche="http://a69.g.akamai.net/n/69/10688/v1/img5.allocine.fr/acmedia/medias/nmedia/00/02/53/61/affiche.jpg">
+    <Titre>Un monde presque paisible </Titre>
+    <Realisateur ID="r17">
+      <Nom>Deville</Nom>
+      <Prenom>Michel</Prenom>
+    </Realisateur>
+    <Scenario>
+      <Nom>Deville</Nom>
+      <Prenom>Rosalinde</Prenom>
+    </Scenario>
+    <Scenario>
+      <Nom>Bober</Nom>
+      <Prenom>Robert</Prenom>
+    </Scenario>
+    <Genre>Com�die dramatique</Genre>
+    <Pays>France</Pays>
+    <Duree>1h33</Duree>
+    <Resume>
+      <Texte>Ao�t 46, dans un atelier de confection pour dames, � Paris, dans le
+quartier des tailleurs juifs.  
+Autour de quelques machines � coudre, trois tables et des rouleaux
+d'�toffe, entre un caf�, un square, une chambre d'h�tel ou un
+appartement soudain trop grand, quatre femmes, cinq hommes et quelques
+enfants essaient de r�apprendre � vivre. Fragilis�s � l'extr�me mais
+d�termin�s � �tre l�, r�sistants, ils font le pari de la vie, avec de
+la fantaisie, de la l�g�ret�. Ce sont des gens ordinaires, ce sont des
+gens admirables.
+</Texte>
+    </Resume>
+    <Acteurs>
+      <Acteur ID="a18"> 
+	<Nom>Abkarian </Nom>
+	<Prenom>Simon</Prenom>
+      </Acteur>
+      <Acteur ID="a19">
+	<Nom>Azabal</Nom>
+	<Prenom>Lubna</Prenom>
+      </Acteur>
+      <Acteur ID="a20">
+	<Nom>Breitman</Nom>
+	<Prenom>Zabou</Prenom>
+      </Acteur>
+      <Acteur ID="a21">
+	<Nom>Courau</Nom>
+	<Prenom>Clotilde</Prenom>
+      </Acteur>
+      <Acteur ID="a22">
+	<Nom>Gayet</Nom>
+	<Prenom>Julie</Prenom>
+      </Acteur>
+      <Acteur ID="a23">
+	<Nom>Merhar</Nom>
+	<Prenom>Stanislas </Prenom>
+      </Acteur>
+      <Acteur ID="a24">
+	<Nom>Podalyd�s</Nom>
+	<Prenom>Denis</Prenom>
+      </Acteur>
+      <Acteur ID="a25">
+	<Nom>Elbaz</Nom>
+	<Prenom>Vincent</Prenom>
+      </Acteur>
+      <Acteur ID="a26">
+	<Nom>Zidi</Nom>
+	<Prenom>Malik</Prenom>
+      </Acteur>
+    </Acteurs>
+    <Palmares>Comp�tition Officielle Festival de Venise 2002</Palmares>
+   <Image>
+      <Nom>Diot</Nom>
+      <Prenom>Andr�</Prenom>
+    </Image>
+    <Montage>
+      <Nom>Sedlackova</Nom>
+      <Prenom>Andrea</Prenom>
+    </Montage>
+    <Musique>Giovanni Battestini</Musique>
+    <Producteur>Elefilms. Distr</Producteur>
+    <Distributeur>Les Films du Losange</Distributeur>
+    <Critique>
+      <Media>t�l�rama</Media>
+      <Auteur>Pierre Murat</Auteur>
+      <Titre>En 1946, � Paris, des juifs tentent de red�couvrir la joie de vivre.</Titre>
+      <Texte>L'horreur est si proche encore qu'on h�site � croire au bonheur.  On
+est en 1946 et la vie recommence, pourtant. Les deux enfants de
+M. Albert (Simon Abkarian) et de L�a (Zabou Breitman), patrons d'un
+atelier de confection pour dames, � Paris, partent en colonie de
+vacances. Et leur p�re leur demande de revenir un peu plus lourds
+qu'ils ne sont. Manger, il faut r�apprendre � manger. R�apprendre �
+vivre. Et � rire, aussi, aux plaisanteries de L�on (Vincent Elbaz)
+qui, devant les deux apprentis engag�s par M. Albert, Maurice et
+Joseph (Stanislas Merhar et Malik Zidi), se pr�sente comme Leon
+Abrahamauschwitz...
+</Texte>
+    </Critique>
+    <Critique>
+      <Media>Le monde</Media>
+      <Auteur>Samuel Blumenfeld</Auteur>
+      <Texte>Apr�s la Shoah, revivre sur un champ de ruines D'apr�s le livre de
+Robert Bober, Michel Deville r�alise la peinture sensible d'une
+g�n�ration hant�e par le deuil.
+
+Un monde paisible, tel que l'envisage Robert Bober dans son roman Quoi
+de neuf sur la guerre ? (publi� en 1993 chez POL), adapt� avec une
+justesse bouleversante par Michel Deville, serait un lieu de m�moire
+modeste et quotidien, o� l'on �viterait, autant que possible, de
+r�veiller les fant�mes du pass�. Un monde o� exil et g�nocide,
+seraient mis entre parenth�ses.
+
+En ao�t 1946, l'atelier de confection pour dames de M. Albert, rue de
+Turenne, est ce lieu presque paisible o� se dessine en filigrane, sur
+les d�combres de la Shoah, le drame d'une g�n�ration de juifs
+survivants, orphelins pour la plupart. Dans cet atelier de couture, il
+y a des machines � coudre, quelques tables, et des hommes, des femmes,
+des enfants, qui doivent, alors que l'on prend tout juste la mesure de
+la catastrophe qui vient de frapper le juda�sme europ�en, r�apprendre
+� vivre. Les hommes et les femmes d'Un monde presque paisible sont
+confront�s � une exp�rience film�e avec une grande pudeur, loin de la
+caricature et du folklore par Michel Deville : l'appr�hension d'un
+deuil incommensurable et la poursuite d'une vie en l'absence de tous
+ceux que l'on a aim�s.
+
+On ne parle pas avec l'accent yiddish dans Un monde presque
+paisible. Les blagues sont rares, les n�vroses enfouies. M�me le deuil
+est tu. Il faut alors ouvrir grands les yeux, tendre l'oreille pour
+�couter le r�cit de drames sur lequel le voile se l�ve peu �
+peu. Maurice Abramowicz (Stanislas Merhar), employ� mod�le, au sourire
+fig�, a sur son bras tatou� son num�ro de matricule de d�port� �
+Auschwitz, et se pr�cipite chez les prostitu�es une fois sa journ�e de
+travail achev�e. M. Albert et sa femme, L�a (Zabou Breitman), ont,
+derri�re une harmonie apparente, cess� de s'aimer.
+
+</Texte>
+    </Critique>
+  </Film>
+  <Film ID="f07" Langue="uk" Affiche="http://a69.g.akamai.net/n/69/10688/v1/img5.allocine.fr/acmedia/medias/nmedia/00/02/53/19/affiche.jpg">
+    <Titre>Bloody Sunday</Titre>
+    <Realisateur  ID="r18">
+      <Nom>Greengrass</Nom>
+      <Prenom>Paul</Prenom>
+    </Realisateur>
+    <Scenario>
+      <Nom>Greengrass</Nom>
+      <Prenom>Paul</Prenom>
+    </Scenario>
+    <Genre>Drame</Genre>
+    <Pays>Anglo-irlandais</Pays>
+    <Duree>1h47</Duree>
+    <Resume>
+      <Texte>Le dimanche 30 janvier 1972, � Derry, en Irlande du Nord, Ivan Cooper
+est l'organisateur d'une marche pacifique pour l'�galit� des droits
+entre catholiques et protestants, farouchement d�termin�s � �viter
+toute violence entre les diff�rents protagonistes.
+
+Mais malgr� son dialogue avec les autorit�s unionistes et ses
+tentatives de n�gociation avec les forces de l'ordre britanniques, la
+manifestation se transforme en �meute : treize personnes sont tu�es
+par l'arm�e. Cette journ�e, d�sormais inscrite dans l'Histoire sous le
+nom de Bloody Sunday, marque le d�but de la guerre civile.
+</Texte>
+    </Resume>
+    <Acteurs>
+      <Acteur ID="a27">
+	<Nom>Nesbitt</Nom>
+	<Prenom>James</Prenom>
+      </Acteur>
+      <Acteur ID="a28">
+	<Nom>Duddy</Nom>
+	<Prenom>Declan</Prenom>
+      </Acteur>
+      <Acteur ID="a29">
+	<Nom>Pigott-Smith</Nom>
+	<Prenom>Tim</Prenom>
+      </Acteur>
+      <Acteur ID="a30">
+	<Nom>Farrell</Nom>
+	<Prenom>Nicholas</Prenom>
+      </Acteur>
+      <Acteur ID="a31">
+	<Nom>McSorley</Nom>
+	<Prenom>Gerard</Prenom>
+      </Acteur>
+      <Acteur ID="a32">
+	<Nom>Clarke</Nom>
+	<Prenom>Kathy Kiera</Prenom>
+      </Acteur>
+    </Acteurs>
+    <Palmares>Ours d'or au Festival de Berlin 2002</Palmares>
+    <Image>
+      <Nom>Strasburg</Nom>
+      <Prenom>Ivan</Prenom>
+    </Image>
+    <Montage>
+      <Nom>Douglas</Nom>
+      <Prenom>Clmare</Prenom>
+    </Montage>
+    <Producteur>Granada Films/Hell's Kitchen</Producteur>
+    <Distributeur>Haut et Court</Distributeur>
+    <Critique>
+      <Media>T�l�rama</Media>
+      <Auteur>Jean-Claude Loiseau</Auteur>
+      <Titre>Retour sur un drame de l'histoire de l'Ulster. D'une rare objectivit�.</Titre>
+      <Texte>Le dimanche 30 janvier 1972, le Mouvement des droits civiques
+d'Irlande du Nord appelle les catholiques � une marche pacifique dans
+les rues de Londonderry. L'arm�e va tirer sur la foule et faire treize
+morts. C'est un tournant dans le conflit en Ulster. Trente ans apr�s,
+un cin�aste britannique, Paul Greengrass, revisite l'histoire. A la
+cl�, une objectivit� rare salu�e comme telle lors de la sortie
+outre-Manche, en janvier dernier. Le film, depuis, a �t� r�compens�
+par l'Ours d'or de Berlin et, r�alis� pour la t�l�vision, il prouve de
+surcro�t que les clich�s du docudrama ne sont pas une fatalit�...
+
+Bloody Sunday s'articule autour de quelques personnages-cl�s. Ivan
+Cooper, d�put� protestant, qui oeuvrait sur le terrain pour la
+r�conciliation des communaut�s catholique et protestante. Un gar�on de
+17 ans, Gerry Donaghy, d�j� emprisonn�, qui sera l'une des treize
+victimes. En face, le g�n�ral McLellan, charg� de la r�pression, mais
+qui cherche � �viter le pire, et le g�n�ral Ford, son sup�rieur, qui
+n'a, lui, qu'une id�e en t�te : frapper aussi fort que possible. Ces
+personnages r�els, Paul Greengrass peine parfois � en faire des
+personnages de cin�ma : les acteurs ont plus de pr�sence que leur r�le
+n'a d'�paisseur. C'est sans doute qu'il a tout mis� sur la mont�e en
+puissance des passions, chez les manifestants comme parmi les soldats.
+Greengrass n'est pas neutre. La responsabilit� de l'arm�e ne fait �
+ses yeux aucun doute, m�me si l'enqu�te qui suivit aboutit, contre
+toute logique, � blanchir les soldats. Conclusion si discutable,
+d'ailleurs, que le dossier a �t� rouvert et qu'une contre-enqu�te est
+actuellement en cours... Le r�alisateur pointe les responsabilit�s
+mais s'efforce surtout de montrer comment, d'un c�t� comme de l'autre,
+la pression collective a fini par balayer toute r�flexion
+individuelle.</Texte>
+    </Critique>
+    <Critique>
+      <Media>Chronic'Art</Media>
+      <Auteur>Gr�goire B�nabent</Auteur>
+      <Note>2</Note>
+      <Texte>La monstruosit� de ce carnage tragique et arbitraire perp�tr� par une
+bande de soudards incontr�lables, rel�ve d'une violence archa�que,
+presque anachronique. Le film de Paul Greengrass s'offre � l'analyse
+comme un reportage classique, mis en sc�ne avec autant de foi que de
+virulence, mais s'en tient � un effet de r�el quelque peu
+st�rile. C'est le "on s'y croirait" du Soldat Ryan, tout l'�nergie est
+concentr�e sur la r�alit� de l'�v�nement. Dommage que l'invention
+n'apporte pas, comme elle le devrait, un surcro�t de v�rit�. Est-ce
+vraiment le r�le d'un cin�aste de fixer sur la pellicule une saisie
+t�l�visuelle, de faire "rejouer" un drame moins passionnant dans son
+d�roulement que dans son r�sultat symbolique ? Le spectateur n'a ici
+aucune latitude pour lui donner un sens moderne, � l'heure o� tant de
+conflits analogues envahissent l'actualit�...</Texte>
+    </Critique>
+  </Film>
+</FILMS>
