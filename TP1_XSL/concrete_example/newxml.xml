@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <BASE>
   <Films>
-    <Film ID="f01" Affiche="http://www.homme-moderne.org/enfinpris/images/affiche.gif" Langue="fr" Real="r01 " Acteurs="a01 a02 a03 ">
+    <Film ID="f01" Affiche="http://www.homme-moderne.org/enfinpris/images/affiche.gif" Langue="fr" Real="r01" Acteurs="a01 a02 a03">
       <Titre>Enfin pris ?</Titre>
       <Genre>Documentaire</Genre>
       <Pays>France</Pays>
@@ -99,7 +99,7 @@ Carles (ils ont corï¿½alisï¿½ un documentaire sur la vie des ï¿½lites e
 </Texte>
     </Critique>
     </Film>
-    <Film ID="f02" Affiche="https://m.media-amazon.com/images/M/MV5BMzkxMjI4MjYtNjYzMC00ZTE1LWJlNjAtNWIyYzU3Njc3ODRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg" Langue="uk" Real="r02 r03 r04 r05 r06 r07 r08 r09 r10 r11 r12 ">
+    <Film ID="f02" Affiche="https://m.media-amazon.com/images/M/MV5BMzkxMjI4MjYtNjYzMC00ZTE1LWJlNjAtNWIyYzU3Njc3ODRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg" Langue="uk" Real="r02 r03 r04 r05 r06 r07 r08 r09 r10 r11 r12">
       <Titre>11'09''01</Titre>
       <Genre>Retour sur actualitï¿½</Genre>
       <Pays>France</Pays>
@@ -192,7 +192,7 @@ sino-japonaise devenu serpent : "il n'y a pas de guerre sainte".
 </Texte>
     </Critique>
     </Film>
-    <Film ID="f03" Affiche="https://members.loria.fr/YBoniface/html/xml/file/LastParty2000.jpg" Langue="vo" Real="r13 r14 " Acteurs="a04 a05 a06 a07 a08 ">
+    <Film ID="f03" Affiche="https://members.loria.fr/YBoniface/html/xml/file/LastParty2000.jpg" Langue="vo" Real="r13 r14" Acteurs="a04 a05 a06 a07 a08">
       <Titre>Last Party 2000</Titre>
       <Genre>Documentaire</Genre>
       <Pays>Amï¿½ricain</Pays>
@@ -293,7 +293,7 @@ candidats, mais il le fait relativement bien.
 </Texte>
     </Critique>
     </Film>
-    <Film ID="f04" Affiche="http://a69.g.akamai.net/n/69/10688/v1/img5.allocine.fr/acmedia/medias/nmedia/00/02/45/99/affichette.jpg" Langue="uk" Real="r07 " Acteurs="a09 a10 a11 a12 ">
+    <Film ID="f04" Affiche="http://a69.g.akamai.net/n/69/10688/v1/img5.allocine.fr/acmedia/medias/nmedia/00/02/45/99/affichette.jpg" Langue="uk" Real="r07" Acteurs="a09 a10 a11 a12">
       <Titre>Sweet Sixteen</Titre>
       <Scenario>
       <Nom>Laverty</Nom>
@@ -402,7 +402,7 @@ bouleversante.
 </Texte>
     </Critique>
     </Film>
-    <Film ID="f05" Affiche="http://fr.web.img5.acsta.net/c_215_290/medias/nmedia/00/02/54/16/affiche.jpg" Langue="fr" Real="r16 " Acteurs="a13 a14 a15 a16 a17 ">
+    <Film ID="f05" Affiche="http://fr.web.img5.acsta.net/c_215_290/medias/nmedia/00/02/54/16/affiche.jpg" Langue="fr" Real="r16" Acteurs="a13 a14 a15 a16 a17">
       <Titre>Le bruit, l'odeur et quelques ï¿½toiles</Titre>
       <Genre>Drame</Genre>
       <Pays>France</Pays>
@@ -451,7 +451,7 @@ magnifiques flashs immobiles.
 </Texte>
     </Critique>
     </Film>
-    <Film ID="f06" Affiche="http://a69.g.akamai.net/n/69/10688/v1/img5.allocine.fr/acmedia/medias/nmedia/00/02/53/61/affiche.jpg" Langue="fr" Real="r17 " Acteurs="a18 a19 a20 a21 a22 a23 a24 a25 a26 ">
+    <Film ID="f06" Affiche="http://a69.g.akamai.net/n/69/10688/v1/img5.allocine.fr/acmedia/medias/nmedia/00/02/53/61/affiche.jpg" Langue="fr" Real="r17" Acteurs="a18 a19 a20 a21 a22 a23 a24 a25 a26">
       <Titre>Un monde presque paisible </Titre>
       <Scenario>
       <Nom>Deville</Nom>
@@ -544,7 +544,7 @@ derriï¿½re une harmonie apparente, cessï¿½ de s'aimer.
 </Texte>
     </Critique>
     </Film>
-    <Film ID="f07" Affiche="http://a69.g.akamai.net/n/69/10688/v1/img5.allocine.fr/acmedia/medias/nmedia/00/02/53/19/affiche.jpg" Langue="uk" Real="r18 " Acteurs="a27 a28 a29 a30 a31 a32 ">
+    <Film ID="f07" Affiche="http://a69.g.akamai.net/n/69/10688/v1/img5.allocine.fr/acmedia/medias/nmedia/00/02/53/19/affiche.jpg" Langue="uk" Real="r18" Acteurs="a27 a28 a29 a30 a31 a32">
       <Titre>Bloody Sunday</Titre>
       <Scenario>
       <Nom>Greengrass</Nom>
@@ -830,5 +830,4 @@ conflits analogues envahissent l'actualitï¿½...</Texte>
       <Prenom>Paul</Prenom>
     </Realisateur>
   </Realisateurs>
-  <Films/>
 </BASE>

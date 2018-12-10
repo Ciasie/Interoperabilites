@@ -14,8 +14,6 @@
 		<Realisateurs>
 			<xsl:apply-templates select="//Realisateur" />
 		</Realisateurs>
-		<Films>
-		</Films>
 	</BASE>
 </xsl:template>
 
@@ -38,11 +36,17 @@
 </xsl:template>
 
 <xsl:template match="Acteur/@ID">
-	<xsl:value-of select="." /><xsl:text> </xsl:text>
+	<xsl:if test="not(position() = 1)">
+		<xsl:text> </xsl:text>
+	</xsl:if>
+	<xsl:value-of select="." />
 </xsl:template>
 
 <xsl:template match="Realisateur/@ID">
-	<xsl:value-of select="." /><xsl:text> </xsl:text>
+	<xsl:if test="not(position() = 1)">
+		<xsl:text> </xsl:text>
+	</xsl:if>
+	<xsl:value-of select="." />
 </xsl:template>
 
 

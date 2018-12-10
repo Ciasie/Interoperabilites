@@ -1,4 +1,4 @@
-<!ELEMENT BASE ((Films)*, (Acteurs)*, (Realisateur)*) >
+<!ELEMENT BASE ((Films)*, (Acteurs)*, (Realisateurs)*) >
 
 <!ELEMENT Films (Film)* >
 <!ELEMENT Film  (Titre, (Scenario)*, Genre, Pays, Duree, Resume, (Palmares)*, 
@@ -40,7 +40,7 @@
                  Affiche          CDATA "none">
 
 <!ATTLIST Realisateur
-                 ID                CDATA #REQUIRED>
+                 ID              ID #REQUIRED>
 
 <!ATTLIST Acteur
                  ID              ID #REQUIRED>
